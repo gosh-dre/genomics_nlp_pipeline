@@ -1,0 +1,31 @@
+[tool.poetry]
+name="document_processing"
+description=""
+version="1.0.1"
+authors = [
+    "Pavi Rajendran <pavithra.rajendran@gosh.nhs.uk>"
+]
+readme="README.md"
+packages= [{include = "docprocessing"},
+    {include = "pretrained_word_embeddings"}, {include = "biomedical_ner"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+black = "*"
+pandas = "1.4.4"
+pdfplumber = "0.10.2"
+nltk = "3.7"
+gensim = "4.2.0"
+scikit-learn = "1.1.2"
+matplotlib = "3.5.3"
+flair = {git = "https://github.com/flairNLP/flair.git"}
+dataclasses_json="0.5.7"
+InstructorEmbedding = "*"
+sentence-transformers="2.2.2"
+
+[tool.poetry.scripts]
+run_process = "main:start_process"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
