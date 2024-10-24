@@ -96,7 +96,7 @@ For any queries, please contact us via email pavithra.rajendran@gosh.nhs.uk
 
 ## Citing & Authors
 
-If you find this repository helpful, feel free to cite our publication [ GIF: An Automated Genomic Information Finder to Extract Data from Reports](to be updated):
+If you find this repository helpful, feel free to cite our publication [ GIF: An Automated Genomic Information Finder to Extract Data from Reports]:
 
 ```
 @inproceedings{
