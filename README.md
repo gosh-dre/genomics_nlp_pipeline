@@ -102,11 +102,11 @@ If you find this repository helpful, feel free to cite our publication [ GIF: An
 @inproceedings{
     title = "GIF: An Automated Genomic Information Finder to Extract Data from Reports",
     author = "Rajendran, Pavithra and Zenonos, Alexandros and Sabu, Sebin and Spiridou, Anastasia and Goncalves, Helena Spiridou and Laskowski, Nastazja and Key, Daniel and Patel, Shiren and Pope, Rebecca and Sebire, Neil",
-    booktitle = "ECAI-PAIS 2024",
-    month = "to be updated",
-    year = "to be updated",
-    publisher = "to be updated",
-    url = "to be updated",
+    pages = "4642 - 4648"
+    booktitle = "Volume 392: ECAI 2024",
+    year = "2024",
+    publisher = "Frontiers in Artificial Intelligence and Applications",
+    url = "[10.3233/FAIA241059](https://ebooks.iospress.nl/doi/10.3233/FAIA241059)",
 }
 ```
 
